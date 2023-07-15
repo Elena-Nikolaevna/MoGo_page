@@ -32,11 +32,13 @@ body {
   left: 0;
   right: 0;
   z-index: 1000;
+  margin-top: 30px;
 }
 
 .header-container {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .container {
@@ -54,8 +56,9 @@ body {
 }
 
 .menu {
-  display: block;
+  display: flex;
   align-items: center;
+  margin-top: 30px;
 }
 
 .logo__link {
@@ -64,6 +67,7 @@ body {
   font-weight: 700;
   font-family: Montserrat, sans-serif;
   text-decoration: none;
+  margin-top: 30px;
 }
 
 .menu-list {
@@ -77,7 +81,6 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
-  margin-left: 493px;
 }
 
 .menu-list .menu__item {
