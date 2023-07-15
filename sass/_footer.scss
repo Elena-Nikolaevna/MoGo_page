@@ -3,6 +3,9 @@
     display: flex;
     border-top: 1px solid var(--borderColor);
     margin-bottom: 30px;
+
+    flex-direction: column-reverse;
+    align-items: center;
    
   }
   
