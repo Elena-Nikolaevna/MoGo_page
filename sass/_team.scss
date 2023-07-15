@@ -86,6 +86,11 @@
     width: 20px;
     padding-left: 7px;
     padding-right: 7px;
+
+    @media screen and (min-width: 1200px) {
+      width: 50px;
+    height: 50px;
+    padding: 10px;}
   }
   
   .social_item:last-child{
