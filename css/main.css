@@ -4,7 +4,7 @@
   --button-background-color: #fce38a;
   --background-color: #2f303a;
   --borderColor: #b3b3b3;
-  --afterColor: ##f38181 ;
+  --afterColor: #f38181;
 }
 
 /*
@@ -46,6 +46,11 @@ body {
   justify-content: space-evenly;
   flex-direction: column;
 }
+@media screen and (min-width: 1200px) {
+  .header-container {
+    flex-direction: row;
+  }
+}
 
 .container {
   width: 100%;
@@ -63,15 +68,23 @@ body {
 
 .menu {
   display: flex;
-  /*align-items: center;*/
   margin-top: 30px;
   justify-content: space-evenly;
   align-items: baseline;
 }
+@media screen and (min-width: 1200px) {
+  .menu {
+    align-items: center;
+  }
+}
 
 .logo {
-  /*margin-top: 30px;*/
   margin-top: 5px;
+}
+@media screen and (min-width: 1200px) {
+  .logo {
+    margin-top: 30px;
+  }
 }
 
 .logo__link {
@@ -205,26 +218,33 @@ body {
   background-position: center;
   width: 100%;
   height: 100vh;
-  /*min-height: 820px;*/
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
+@media screen and (min-width: 1200px) {
+  .hero {
+    min-height: 820px;
+  }
+}
 
 .hero_title {
-  /*font-size: 72px;*/
   font-size: 40px;
   color: var(--primary-text-color);
   font-weight: 400;
   text-align: center;
   font-family: "Kaushan Script", cursive;
-  /*margin-bottom: 60px;*/
-  margin-top: 0px;
-  margin-bottom: 30px;
+}
+@media screen and (min-width: 1200px) {
+  .hero_title {
+    font-size: 72px;
+    margin-bottom: 60px;
+    margin-top: 250px;
+    margin-bottom: 67px;
+  }
 }
 
 .hero_title_primary {
-  /*font-size: 150px;*/
   font-size: 75px;
   line-height: 140px;
   text-transform: uppercase;
@@ -235,6 +255,11 @@ body {
   margin: 0;
   line-height: 1;
 }
+@media screen and (min-width: 1200px) {
+  .hero_title_primary {
+    font-size: 150px;
+  }
+}
 
 .btn {
   display: inline-block;
@@ -244,7 +269,6 @@ body {
   font-size: 14px;
   font-weight: 700;
   color: var(--primary-text-color);
-  /*margin-top: 125px;*/
   text-transform: uppercase;
   text-decoration: none;
   transition: background 0.1s linear, color 0.1s linear;
@@ -253,6 +277,12 @@ body {
 .btn:hover {
   background-color: var(--primary-text-color);
   color: #fce38a;
+}
+@media screen and (min-width: 1200px) {
+  .btn {
+    margin-top: 125px;
+    margin-bottom: 224px;
+  }
 }
 
 .section_title:after {
@@ -418,6 +448,13 @@ body {
   padding-left: 7px;
   padding-right: 7px;
 }
+@media screen and (min-width: 1200px) {
+  .social_item {
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+  }
+}
 
 .social_item:last-child {
   border-right: 0;
@@ -459,6 +496,12 @@ body {
   margin-bottom: 30px;
   flex-direction: column-reverse;
   align-items: center;
+}
+@media screen and (min-width: 1200px) {
+  .container_futer {
+    flex-direction: row;
+    align-items: normal;
+  }
 }
 
 .copyright {
