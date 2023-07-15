@@ -19,8 +19,8 @@
   
   .container {
     width: 100%;
-    max-width: 1230px;
-    padding: 0 15px;
+    max-width: 1200px;
+    padding: 0 0px;
     margin: 0 auto;
   }
   
@@ -68,7 +68,11 @@
   
   .menu-list .menu__item {
     margin-right: 50px;
+    :last-child {
+      margin-right: 0px;
+    }
   }
+  
   .menu__item {
     display: flex;
     align-items: center;
