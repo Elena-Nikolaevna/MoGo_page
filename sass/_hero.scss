@@ -27,6 +27,7 @@
     font-weight: 400;  
     text-align: center;
     font-family: "Kaushan Script", cursive;
+    
    
 
     
@@ -42,7 +43,7 @@
   
   .hero_title_primary {
    
-    font-size: 75px;
+    font-size: 60px;
     line-height: 140px;
     text-transform: uppercase;
     color: var(--primary-text-color);
@@ -51,6 +52,8 @@
     text-align: center;
     margin: 0;
     line-height: 1;
+    margin-left: 5px;
+    margin-right: 5px;
     @media screen and (min-width: 1200px) {
        font-size: 150px;
       }
