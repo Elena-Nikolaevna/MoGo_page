@@ -3,15 +3,17 @@
     flex-wrap: wrap;
     justify-content: center;
     @media screen and (min-width: 768px) {
-      justify-content: center
+      justify-content: center;
    }
   }
   
   .services_item {
-    width: 23%;
+    
     padding: 0 35px 40px 85px;
     position: relative;
     margin-bottom: 30px;
+    @media screen and (min-width: 768px) {
+      width: 23%;
   }
   
   
@@ -35,4 +37,4 @@
     font-size: 14px;
     color: #b3b3b3;
   }
-  
+}
