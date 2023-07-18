@@ -247,7 +247,7 @@ body {
 }
 
 .hero_title_primary {
-  font-size: 75px;
+  font-size: 60px;
   line-height: 140px;
   text-transform: uppercase;
   color: var(--primary-text-color);
@@ -256,6 +256,8 @@ body {
   text-align: center;
   margin: 0;
   line-height: 1;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 @media screen and (min-width: 1200px) {
   .hero_title_primary {
